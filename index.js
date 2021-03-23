@@ -85,7 +85,7 @@ const runAddressWorker = async () => {
   // Hint: syntax to use AddressWorker: new AddressWorker({ address }).geoCodeAddress()
 
   const areArraysEqual = arraysEqual(geoCodedAddresses, expectedResult)
-  console.log('formattedStudents matches expected result?:', areArraysEqual)
+  console.log('geoCodedAddresses matches expected result?:', areArraysEqual)
 }
 
 runAddressWorker()
